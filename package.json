@@ -1,0 +1,15 @@
+{
+  "name": "reverse-of-power-web",
+  "private": true,
+  "description": "Play Knowledge is Power and Knowledge is Power: Decades on a PS4/PS5 from any phone browser, through a small LAN relay.",
+  "license": "GPL-3.0-only",
+  "type": "module",
+  "scripts": {
+    "build": "node build.mjs",
+    "test:qr": "node test/qr-check.cjs"
+  },
+  "devDependencies": {
+    "jsqr": "^1.4.0",
+    "playwright-core": "^1.64.1"
+  }
+}
